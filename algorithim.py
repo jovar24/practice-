@@ -8,3 +8,21 @@ def bonus_time(salary, bonus):
 
 
 bonus_time(25000, True)
+
+
+def apple(x):
+    if int(x)**2 >= 1000:
+        return "It's hotter than the sun!!"
+    else:
+        return "Help yourself to a honeycomb Yorkie for the glovebox."
+
+
+apple(50)
+
+
+def is_digit(n):
+    n = n.isnumeric()
+    print(n)
+
+
+is_digit("")
